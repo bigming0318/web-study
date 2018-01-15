@@ -13,8 +13,7 @@ function Poultry(name, age, color, leg) {
     var uP = document.createElement("p");
     uBody.appendChild(uP);
     this.info = uP.innerHTML =
-        "我是一个" +
-        this.color +
+        "我是一个" + this.color +
         "的" + this.name +
         ",今年已经" + this.age +
         "岁了,我有" + this.leg +
