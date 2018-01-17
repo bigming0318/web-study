@@ -2,26 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<title>蔚蓝网购物车页面</title>
-    <link href="css/global.css" rel="stylesheet" />
-    <link href="css/layout.css" rel="stylesheet" />
-    <link href="css/template.css" rel="stylesheet" />
+    <title>蔚蓝网购物车页面</title>
+    <link href="css/global.css" rel="stylesheet"/>
+    <link href="css/layout.css" rel="stylesheet"/>
+    <link href="css/template.css" rel="stylesheet"/>
 </head>
 
 <body>
 <header id="header">
     <div class="header_top">
-        <div class="header_top_left">您好！欢迎光临蔚蓝网 [<a href="login.html" target="_parent">登录</a> | <a href="register.html" target="_parent">免费注册</a>]</div>
+        <div class="header_top_left">您好！欢迎光临蔚蓝网 [<a href="login.html" target="_parent">登录</a> | <a href="register.html"
+                                                                                                   target="_parent">免费注册</a>]
+        </div>
         <div class="header_top_right">
             <ul>
                 <li><a href="#" target="_self">客户服务</a></li>
                 <li>|</li>
-                <li id="menu"><a href="#" target="_self">新手入门</a> <img src="images/arrow_down.gif" alt="arrow" />
+                <li id="menu"><a href="#" target="_self">新手入门</a> <img src="images/arrow_down.gif" alt="arrow"/>
                     <div id="dd_menu_top_down">
-                        <a href="#" target="_self">购物保障</a><br />
-                        <a href="#" target="_self">购物流程</a><br />
-                        <a href="#" target="_self">会员介绍</a><br />
-                        <a href="#" target="_self">常见问题</a><br />
+                        <a href="#" target="_self">购物保障</a><br/>
+                        <a href="#" target="_self">购物流程</a><br/>
+                        <a href="#" target="_self">会员介绍</a><br/>
+                        <a href="#" target="_self">常见问题</a><br/>
                     </div>
                 </li>
                 <li>|</li>
@@ -56,7 +58,8 @@
     <!--为您推荐商品开始-->
     <div class="shopping_commend">
         <div class="shopping_commend_left">根据您挑选的商品，蔚蓝为您推荐</div>
-        <div class="shopping_commend_right"><img src="images/shopping_arrow_up.gif" alt="shopping" id="shopping_commend_arrow"/></div>
+        <div class="shopping_commend_right"><img src="images/shopping_arrow_up.gif" alt="shopping"
+                                                 id="shopping_commend_arrow"/></div>
     </div>
     <div id="shopping_commend_sort">
         <div class="shopping_commend_sort_left">
@@ -167,7 +170,8 @@
                 <td class="shopping_product_list_6"><a href="javascript:void(0)" class="blue">删除</a></td>
             </tr>
             <tr class="shopping_product_list" id="shoppingProduct_06">
-                <td class="shopping_product_list_1"><a href="#" class="blue">法布尔昆虫记</a>（再买￥68.30即可参加“满199元减10元现金”活动）</td>
+                <td class="shopping_product_list_1"><a href="#" class="blue">法布尔昆虫记</a>（再买￥68.30即可参加“满199元减10元现金”活动）
+                </td>
                 <td class="shopping_product_list_2"><label>10</label></td>
                 <td class="shopping_product_list_3">￥<label>198.00</label></td>
                 <td class="shopping_product_list_4">￥<label>130.70</label> (66折)</td>
@@ -175,13 +179,16 @@
                 <td class="shopping_product_list_6"><a href="javascript:void(0)" class="blue">删除</a></td>
             </tr>
         </table>
+        <!--清空购物车后显示的内容-->
+        <div class="addDiv"><img src="images/emptyShopping.jpg" alt=""><span>您还没有挑选商品,</span><a href="">去挑选看看&gt;&gt;</a></div>
         <div class="shopping_list_end">
             <div><a id="removeAllProduct" href="javascript:void(0);">清空购物车</a></div>
             <ul>
                 <li class="shopping_list_end_1"><input name="" type="image" src="images/shopping_balance.gif"/></li>
                 <li class="shopping_list_end_2">￥<label id="product_total"></label></li>
                 <li class="shopping_list_end_3">商品金额总计：</li>
-                <li  class="shopping_list_end_4">您共节省金额：￥<label class="shopping_list_end_yellow" id="product_save"></label><br/>
+                <li class="shopping_list_end_4">您共节省金额：￥<label class="shopping_list_end_yellow"
+                                                               id="product_save"></label><br/>
                     可获商品积分：<label class="shopping_list_end_yellow" id="product_integral"></label>
                 </li>
             </ul>
@@ -191,11 +198,18 @@
 
 <!--网站版权部分开始-->
 <footer id="footer">
-    <div class="footer_top"><a href="#" target="_parent" class="footer_dull_red">正版保障</a> | <a href="#" target="_parent" class="footer_dull_red">满额免运</a> | <a href="#" target="_parent" class="footer_dull_red">货到付款</a> | <a href="#" target="_parent" class="footer_dull_red">品种最全</a> | <a href="#" target="_parent" class="footer_dull_red">免费退换</a></div>
-    <div class="footer_end">Copyright (C) 蔚蓝网 2006-2016, All Rights Reserved  <img src="images/validate.gif"  alt="版权" style="vertical-align:middle;" /> 京ICP证100488号 出版物经营许可证 京批100160号</div>
+    <div class="footer_top"><a href="#" target="_parent" class="footer_dull_red">正版保障</a> | <a href="#" target="_parent"
+                                                                                               class="footer_dull_red">满额免运</a>
+        | <a href="#" target="_parent" class="footer_dull_red">货到付款</a> | <a href="#" target="_parent"
+                                                                             class="footer_dull_red">品种最全</a> | <a
+                href="#" target="_parent" class="footer_dull_red">免费退换</a></div>
+    <div class="footer_end">Copyright (C) 蔚蓝网 2006-2016, All Rights Reserved <img src="images/validate.gif" alt="版权"
+                                                                                  style="vertical-align:middle;"/>
+        京ICP证100488号 出版物经营许可证 京批100160号
+    </div>
 </footer>
 <script src="js/jquery-1.12.4.js"></script>
-<script  src="js/shopping.js"></script>
+<script src="js/shopping.js"></script>
 <script src="js/header.js"></script>
 </body>
 </html>

@@ -140,3 +140,19 @@
 #dd_menu_top_down li{
     float:none;
 }
+
+.addDiv {
+    height: 150px;
+    line-height: 150px;
+    padding-left: 200px;
+    display: none;
+}
+
+.addDiv img {
+    vertical-align: middle;
+    padding-right: 30px;
+}
+
+.addDiv a {
+    color: #1965B3;
+}
