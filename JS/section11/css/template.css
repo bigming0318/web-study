@@ -131,7 +131,7 @@
     width:80px;
     text-align:left;
     border:solid 1px #999;
-    border-top:0px;
+    border-top:0;
     display:none;
     background-color:#FFF;
     padding-left:10px;
