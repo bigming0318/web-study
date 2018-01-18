@@ -46,7 +46,7 @@ $(document).ready(function () {
         }
     });
 
-
+   /* /!*数组方式 实现下拉框级联*!/
     $("#province").change(function () {
         var provinceList = ["0","湖南","湖北","江苏","浙江","安徽","福建","山东"];
         provinceList["0"] = ["请选择城市/地区"];
@@ -62,5 +62,27 @@ $(document).ready(function () {
             htmlContent += "<option>" + provinceList[$(this).val()][i] + "</option>";
         }
         $("#city").html(htmlContent)
+    })*/
+    /*ajax 实现下拉框级联*/
+    $("#province").change(function () {
+        $.ajax({
+            type: "post",
+            url: "json/" + $(this).val(),
+            data: null,
+            dataType: "JSON",
+            success: function (ret) {
+                console.log(ret);
+                var htmlContent = "";
+                for (var index in ret) {
+                    htmlContent += "<option value=(index+1)>";
+                    htmlContent += ret[index];
+                    htmlContent += "</option>"
+                }
+                $("#city").html(htmlContent);
+            },
+            error: function (ret) {
+                console.error(ret);
+            }
+        });
     })
 });
