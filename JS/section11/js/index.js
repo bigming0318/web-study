@@ -5,7 +5,7 @@
 
 $(document).ready(function () {
     /*弹出广告窗口*/
-    window.open("open.html","","width=500,height=327,scrollbars=no,location=no");
+    window.open("open.html", "", "width=500,height=327,scrollbars=no,location=no");
     /*随滚动条滚动的广告*/
     var $rightScroll = $("#right");
     var adverTop = parseInt($rightScroll.css("top"));//获取元素距顶部的距离
@@ -67,14 +67,18 @@ $(document).ready(function () {
     $(".tab ol li:first").mousemove(function () {
         $(".tab ul:first").show();
         $(".tab ul:last").hide();
-        $(this).css({background:"#fff",borderRight:"none",borderBottom:"none"});
-        $(".tab ol li:last").css({background:"#efefef",borderLeft:"1px solid #ccc",borderBottom:"1px solid #ccc"});
+        $(this).css({background: "#fff", borderRight: "none", borderBottom: "none"});
+        $(".tab ol li:last").css({background: "#efefef", borderLeft: "1px solid #ccc", borderBottom: "1px solid #ccc"});
     });
     $(".tab ol li:last").mousemove(function () {
         $(".tab ul:first").hide();
         $(".tab ul:last").show();
-        $(this).css({background:"#fff",borderLeft:"none",borderBottom:"none"});
-        $(".tab ol li:first").css({background:"#efefef",borderRight:"1px solid #ccc",borderBottom:"1px solid #ccc"});
+        $(this).css({background: "#fff", borderLeft: "none", borderBottom: "none"});
+        $(".tab ol li:first").css({
+            background: "#efefef",
+            borderRight: "1px solid #ccc",
+            borderBottom: "1px solid #ccc"
+        });
     });
 
     /*鼠标移至图书标题显示图片和图书信息*/
@@ -87,44 +91,44 @@ $(document).ready(function () {
 
 
     /*图片轮播效果*/
-        var curIndex=0;//定义一个全局变量，也就是图片的索引值
-        var imgLen=$("#scroll_img li").length;//获取图片的张数
-        /*1.用定时器做一个自动播放函数，当图片索引值小于图片长度-1的时候，就让索引值自增，当它等于图片长度，也就是到最后一张图片的时候，让它为0，从第一张图片重新开始*/
-        var autoChange=setInterval(function(){
-            if(curIndex<imgLen-1){
+    var curIndex = 0;//定义一个全局变量，也就是图片的索引值
+    var imgLen = $("#scroll_img li").length;//获取图片的张数
+    /*1.用定时器做一个自动播放函数，当图片索引值小于图片长度-1的时候，就让索引值自增，当它等于图片长度，也就是到最后一张图片的时候，让它为0，从第一张图片重新开始*/
+    var autoChange = setInterval(function () {
+        if (curIndex < imgLen - 1) {
+            curIndex++;
+        }
+        else {
+            curIndex = 0;
+        }
+        changeTo(curIndex);
+    }, 2500);
+    /*2.给按钮绑定事件，当鼠标悬浮到某个li上面时清除定时器，移开又自动播放*/
+    $("#scroll_number").find("li").each(function (item) {
+        $(this).hover(function () {
+            clearInterval(autoChange);
+            changeTo(item);
+            curIndex = item;
+        }, function () {
+            autoChangeAgain();
+        });
+    });
+    /*3.定义一个重新自动播放函数*/
+    function autoChangeAgain() {
+        autoChange = setInterval(function () {
+            if (curIndex < imgLen - 1) {
                 curIndex++;
             }
-            else{
-                curIndex=0;
+            else {
+                curIndex = 0;
             }
             changeTo(curIndex);
-        },2500);
-        /*2.给按钮绑定事件，当鼠标悬浮到某个li上面时清除定时器，移开又自动播放*/
-        $("#scroll_number").find("li").each(function(item) {
-            $(this).hover(function() {
-                clearInterval(autoChange);
-                changeTo(item);
-                curIndex = item;
-            }, function() {
-                autoChangeAgain();
-            });
-        });
-        /*3.定义一个重新自动播放函数*/
-        function autoChangeAgain(){
-            autoChange=setInterval(function(){
-                if(curIndex<imgLen-1){
-                    curIndex++;
-                }
-                else{
-                    curIndex=0;
-                }
-                changeTo(curIndex);
-            },2500);
-        };
-        /*5.定义一个切换图片的函数*/
-        function changeTo(num){
-            $("#scroll_img").find("li").fadeOut(600).eq(num).fadeIn(600);
-            $("#scroll_number").find("li").eq(num).css("background","#f30");
-            $("#scroll_number").find("li").eq(num).siblings().css("background","#a9a9a9");
-        };
+        }, 2500);
+    };
+    /*5.定义一个切换图片的函数*/
+    function changeTo(num) {
+        $("#scroll_img").find("li").fadeOut(600).eq(num).fadeIn(600);
+        $("#scroll_number").find("li").eq(num).css("background", "#f30");
+        $("#scroll_number").find("li").eq(num).siblings().css("background", "#a9a9a9");
+    };
 });

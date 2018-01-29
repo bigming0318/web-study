@@ -2,17 +2,22 @@
  * Created by Administrator on 2018/1/18/018.
  */
 $(document).ready(function () {
+    /*Email文本框获取和失去焦点时*/
     $("#email").focus(function () {
         $(this).removeClass("login_content_input").addClass("login_content_input_Focus")
     })
     $("#email").blur(function () {
-        $(this).removeClass("login_content_input_Focus").addClass("login_content_input")
+        $(this).removeClass("login_content_input_Focus");/*.addClass("login_content_input")*/
         if ($(this).val() == ""){
-            alert("email邮箱不能为空")
+            $(this).addClass("login_content_input");
+            $(this).css("border","solid 1px red")
+        } else {
+            $(this).addClass("login_content_input");
+            $(this).css("border","solid 1px #999");
         }
     })
 
-    
+    /*密码文本框获取和失去焦点时*/
     $("#pwd").focus(function () {
         $(this).removeClass("login_content_input").addClass("login_content_input_Focus")
     })

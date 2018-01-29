@@ -215,6 +215,14 @@
     padding-left: 5px;
 }
 
+#product_storyList_top li:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    vertical-align: middle;
+}
+
 #product_storyList_top img {
     padding-top: 5px;
 }
@@ -364,6 +372,68 @@
     margin: 0px 3px 1px 0px;
     color: #FFF;
 
+}
+
+/*大图模式*/
+.big-img-model {
+    margin-top: 30px;
+    /*display: none;*/
+}
+
+.big-img-model-ul li {
+    height: 180px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.big-img-list-out {
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    overflow: hidden;
+    padding: 0 10px 0 5px;
+}
+
+.big-img-list-out1 {
+    left: 30px;
+}
+
+.big-img-list-out2 {
+    left: 210px;
+}
+
+.big-img-list-out3 {
+    left: 410px;
+}
+
+.big-img-list-out4 {
+    left: 600px;
+}
+
+.big-img-list-over {
+    position: absolute;
+    width: 160px;
+    padding: 0 10px 0 5px;
+    border: solid 1px #a1a1a1;
+    background: #fff;
+    z-index: 100;
+}
+
+.big-img-book {
+    text-align: center;
+}
+
+.big-img-price {
+    margin: 5px 0;
+}
+
+.big-img-price span {
+    text-decoration: line-through;
+    margin: 20px;
+}
+
+.book-referral {
+    line-height: 22px;
 }
 
 /*购物车页面样式开始*/

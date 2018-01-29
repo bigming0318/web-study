@@ -17,14 +17,14 @@ var myTime = hh + ":" + mm;
 $(function () {
     //点击我要发帖,编辑板块显示
     $(".myPost").click(function () {
-        $(".popup").show("slow");
+        $(".popup").show();
         $(".title").val("");
         $("option")[0].selected = true;
         $("textarea").val("");
     });
     //点击编辑板块右上角箭头,编辑版块隐藏;
     $(".popup-close").click(function () {
-        $(".popup").hide("fast");
+        $(".popup").hide();
     });
     //点击发布,插入一个新的节点
     $(".myPost1").click(function () {
@@ -45,12 +45,12 @@ $(function () {
         } else {
             var headImg = "<img src='img/" + myArr[userNum] + "' class='head-img'>";
             var titleNode = "<a href=''>" + myTitle + "</a>";
-            var plateNode = "<span class='span-left'>板块：" + Ovalue + "</span>"
+            var plateNode = "<span class='span-left'>板块：" + Ovalue + "</span>";
             var timeNode = "<span class='span-right'>发表时间：" + myAge + "&nbsp;" + myTime + "</span>";
             var liCont = "<div class='li-content'>"+titleNode+"<div>"+plateNode+""+timeNode+"</div></div>";
             var liNode = "<li>"+headImg+""+liCont+"</li>";
             $("ul li:eq(1)").before(liNode);
-            $(".popup").hide("fast");
+            $(".popup").hide();
         }
     });
 });

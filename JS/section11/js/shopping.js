@@ -19,13 +19,9 @@ $(document).ready(function () {
 
     /*计算总价方法*/
     function total() {
-        //单品积分
         var $oneIntegral = $(".shopping_product_list_2").find("label");
-        //市场价
         var $scPrice = $(".shopping_product_list_3").find("label");
-        //蔚蓝价
         var $wlPrice = $(".shopping_product_list_4").find("label");
-        //数量
         var $number = $(".shopping_product_list_5").find("input");
         //初始化商品金额总计
         var sum = 0;
@@ -36,14 +32,10 @@ $(document).ready(function () {
         //初始化积分总计
         var Integral = 0;
         for (var i = 0; i < $(".shopping_product_list").length; i++) {
-            //商品金额总计 += 蔚蓝价 * 数量
             sum += $wlPrice.eq(i).html() * $number.eq(i).val();
-            //市场金额总计 += 市场价 * 数量
             bazaar += $scPrice.eq(i).html() * $number.eq(i).val();
-            //商品积分总计 += 单品积分 * 数量
             Integral += $oneIntegral.eq(i).html() * $number.eq(i).val();
         }
-        //节省金额 += 市场价 * 数量 - 蔚蓝价 * 数量  ==>  节省金额 += 市场价总金额 - 商品金额总计
         save = bazaar - sum;
         $("#product_total").html(sum.toFixed(1));
         $("#product_save").html(save.toFixed(1));

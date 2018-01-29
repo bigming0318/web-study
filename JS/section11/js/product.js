@@ -3,6 +3,7 @@
  */
 
 $(document).ready(function () {
+    /*加载左边浏览同级分类*/
     $.ajax({
         type:"post",//请求类型
         url:"json/firstJson.txt",//请求地址
@@ -35,5 +36,27 @@ $(document).ready(function () {
         error:function (ret) {//请求失败
             console.error(ret);
         }
+    })
+
+    /*切换大图和列表模式*/
+    var $listBtn = $("#product_storyList_content");
+    var $bigImgBtn = $("#bigImgModel");
+    $("#product_array a[name='array']").click(function () {
+        $(this).addClass("click");
+        $("#product_array a[name='bigImg']").removeClass("click");
+        $listBtn.show();
+        $bigImgBtn.hide();
+    })
+    $("#product_array a[name='bigImg']").click(function () {
+        $(this).addClass("click");
+        $("#product_array a[name='array']").removeClass("click");
+        $listBtn.hide();
+        $bigImgBtn.show();
+    })
+    /*大图模式下鼠标悬浮到图片内*/
+    $(".big-img-list-out").hover(function () {
+        $(this).removeClass("big-img-list-out").addClass("big-img-list-over");
+    },function () {
+        $(this).removeClass("big-img-list-over").addClass("big-img-list-out");
     })
 });

@@ -6,7 +6,7 @@
 .chat-box {
     position: relative;
     width: 700px;
-    height: 700px;
+    height: 600px;
     margin: 30px auto;
     border: solid 1px #666;
     box-sizing: border-box;
@@ -15,7 +15,7 @@
 
 .chat-cont {
     width: 700px;
-    height: 500px;
+    height: 400px;
     overflow: auto;
     padding: 0 10px;
     box-sizing: border-box;
