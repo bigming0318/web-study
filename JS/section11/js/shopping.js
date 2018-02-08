@@ -41,7 +41,6 @@ $(document).ready(function () {
         $("#product_save").html(save.toFixed(1));
         $("#product_integral").html(Integral);
     }
-
     total();
 
     /*删除商品功能*/

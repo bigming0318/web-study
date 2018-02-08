@@ -1,0 +1,96 @@
+.main-box {
+    min-width: 1070px;
+    width: 100%;
+    background: #EEEEEE;
+}
+
+.main-content {
+    width: 1070px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.main-content-t {
+    position: relative;
+}
+
+.main-content-l {
+    position: relative;
+    width: 595px;
+    height: 42px;
+    box-sizing: border-box;
+    border: solid 1px #ddd;
+    background: #fff;
+}
+
+.main-content-l span {
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    color: #666;
+}
+
+.main-content-l-input {
+    position: absolute;
+    left: 123px;
+    top: 6px;
+    outline: none;
+    width: 150px;
+    height: 25px;
+    box-sizing: border-box;
+    border: none;
+    border-left: solid 1px #ddd;
+    padding: 8px 0 0 16px;
+}
+
+.main-content-l-del {
+    position: absolute;
+    right: 19px;
+    top: 50%;
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.main-content-r {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main-content-r-date {
+    position: absolute;
+    right: 152px;
+    width: 300px;
+    height: 42px;
+    box-sizing: border-box;
+    border: solid 1px #ddd;
+    background: #fff;
+}
+
+.main-content-r-date-rImg {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.main-content-r-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 132px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #FC4F08 url("../img/sosuo.png") no-repeat 35px;
+    color: #fff;
+    padding-left: 18px;
+}
+
+.main-content-choice {
+    margin-top: 16px;
+    background: #fff;
+    height: 500px;
+}

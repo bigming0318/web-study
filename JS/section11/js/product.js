@@ -5,15 +5,15 @@
 $(document).ready(function () {
     /*加载左边浏览同级分类*/
     $.ajax({
-        type:"post",//请求类型
-        url:"json/firstJson.txt",//请求地址
-        data:null,//参数
-        dataType:"JSON",//返回数据类型
-        success:function (ret) {//请求成功
+        type: "post",//请求类型
+        url: "json/firstJson",//请求地址
+        data: null,//参数
+        dataType: "JSON",//返回数据类型
+        success: function (ret) {//请求成功
             console.log(ret);
             //生成列表
             var htmlContent = "";
-            for (var index in ret){
+            for (var index in ret) {
                 var temp = ret[index];
                 htmlContent += "<li>";
 
@@ -24,7 +24,7 @@ $(document).ready(function () {
 
                 //数量
                 htmlContent += "<span>";
-                htmlContent += "(" + temp.number + ")";
+                htmlContent += "(" + temp.num + ")";
                 htmlContent += "</span>";
 
                 htmlContent += "</li>";
@@ -33,10 +33,10 @@ $(document).ready(function () {
             //添加内容
             $("#product_catList_class ul").html(htmlContent);
         },
-        error:function (ret) {//请求失败
+        error: function (ret) {//请求失败
             console.error(ret);
         }
-    })
+    });
 
     /*切换大图和列表模式*/
     var $listBtn = $("#product_storyList_content");
@@ -56,7 +56,7 @@ $(document).ready(function () {
     /*大图模式下鼠标悬浮到图片内*/
     $(".big-img-list-out").hover(function () {
         $(this).removeClass("big-img-list-out").addClass("big-img-list-over");
-    },function () {
+    }, function () {
         $(this).removeClass("big-img-list-over").addClass("big-img-list-out");
     })
 });

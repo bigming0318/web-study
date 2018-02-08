@@ -377,7 +377,7 @@
 /*大图模式*/
 .big-img-model {
     margin-top: 30px;
-    /*display: none;*/
+    display: none;
 }
 
 .big-img-model-ul li {

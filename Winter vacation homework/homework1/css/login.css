@@ -1,0 +1,103 @@
+.main-box {
+    min-width: 1070px;
+    width: 100%;
+    background: #EEEEEE;
+}
+
+.main-content {
+    position: relative;
+    width: 1070px;
+    margin: 0 auto;
+    padding: 90px 0 135px 0;
+}
+
+.main-content-r {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 405px;
+    height: 426px;
+    box-sizing: border-box;
+}
+
+.login-way {
+    position: relative;
+}
+
+.login-way div {
+    width: 203px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-way-r {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*登录方式选中*/
+.login-way-pitch {
+    background: #FC4F08;
+    color: #fff;
+}
+
+.login-way-def {
+    background: #F5F5F5;
+    color: #666;
+}
+
+.main-content-form {
+    width: 405px;
+    height: 372px;
+    padding: 63px 0 0 41px;
+    background: #fff;
+}
+
+.userInput {
+    width: 324px;
+    height: 36px;
+    margin-bottom: 25px;
+    border: solid 1px #DDDDDD;
+    padding: 11px 13px;
+    box-sizing: border-box;
+}
+
+.remember-pas {
+    position: relative;
+    width: 324px;
+    color: #535353;
+    margin-bottom: 13px;
+}
+
+.remember-pas-r {
+    position: absolute;
+    right: 0;
+    color: #535353;
+}
+
+.remember-pas input {
+    margin-right: 4px;
+}
+
+.sub {
+    color: #fff;
+    background: #ccc;
+    width: 324px;
+    height: 36px;
+    margin-bottom: 13px;
+    border-radius: 4px;
+}
+
+.reg {
+    position: relative;
+    width: 324px;
+}
+
+.reg a {
+    position: absolute;
+    right: 0;
+    color: #535353;
+}

@@ -5,24 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="566c3a39-9808-42b5-ace8-60c51425c6dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/section7/task/newTask2/images/down.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/section7/task/newTask2/images/icon1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/section7/task/newTask2/images/point.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/section7/task/newTask2/images/up.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/section7/task/newTask2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/section7/task/newTask2/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/section7/task/newTask2/js/jquery-1.12.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Winter vacation homework/homework1/css/head&amp;foot.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Winter vacation homework/homework1/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Winter vacation homework/homework1/css/integral.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Winter vacation homework/homework1/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Winter vacation homework/homework1/css/register.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Winter vacation homework/homework1/css/reservation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Winter vacation homework/homework1/js/index.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/section10/shoppingCar/js/myCart1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/section11/json/firstJson.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/途家/img/left-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/途家/img/right-arr.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/section10/shoppingCar/js/myCart.js" afterPath="$PROJECT_DIR$/JS/section10/shoppingCar/js/myCart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/section11/css/layout.css" afterPath="$PROJECT_DIR$/JS/section11/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/section11/js/index.js" afterPath="$PROJECT_DIR$/JS/section11/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/section11/js/login.js" afterPath="$PROJECT_DIR$/JS/section11/js/login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/section11/js/product.js" afterPath="$PROJECT_DIR$/JS/section11/js/product.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/section11/js/register.js" afterPath="$PROJECT_DIR$/JS/section11/js/register.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/section11/js/shopping.js" afterPath="$PROJECT_DIR$/JS/section11/js/shopping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/section11/product.html" afterPath="$PROJECT_DIR$/JS/section11/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/section8/test/test2/css/ts8-2.css" afterPath="$PROJECT_DIR$/JS/section8/test/test2/css/ts8-2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/section8/test/test2/js/ts8-2.js" afterPath="$PROJECT_DIR$/JS/section8/test/test2/js/ts8-2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/section8/test/test3/js/ts8-3.js" afterPath="$PROJECT_DIR$/JS/section8/test/test3/js/ts8-3.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,15 +37,42 @@
     <favorites_list name="web10-2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file leaf-file-name="reservation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/reservation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="39" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reservation.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/css/reservation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="654">
+              <caret line="92" column="20" lean-forward="false" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package_json" />
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -69,6 +94,8 @@
       <find>cartCheckBox</find>
       <find>删除所选</find>
       <find>display</find>
+      <find>1071</find>
+      <find>flex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,19 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/AJAX.js" />
-        <option value="$PROJECT_DIR$/AJAX-demo/js/register.js" />
-        <option value="$PROJECT_DIR$/AJAX-demo/register.html" />
-        <option value="$PROJECT_DIR$/JS/section4/newTest/newTest1/js/newTest1.js" />
-        <option value="$PROJECT_DIR$/JS/section4/newTest/newTest2/js/newTest2.js" />
-        <option value="$PROJECT_DIR$/JS/section4/newTest/newTest2/newTest2.html" />
-        <option value="$PROJECT_DIR$/JS/section4/newTest/newTest1/newTest1.html" />
-        <option value="$PROJECT_DIR$/JS/section4/newTest/newTest3/newTest3.html" />
-        <option value="$PROJECT_DIR$/JS/section4/test/test3/ts4-3.html" />
-        <option value="$PROJECT_DIR$/JS/section4/task/task3/js/tk4-3.js" />
-        <option value="$PROJECT_DIR$/JS/section4/newTest/newTest3/js/newTest3.js" />
-        <option value="$PROJECT_DIR$/JS/section4/newTest/newTest4/newTest4.html" />
-        <option value="$PROJECT_DIR$/JS/section11/js/header.js" />
         <option value="$PROJECT_DIR$/JS/section11/json/firstJson.txt" />
         <option value="$PROJECT_DIR$/JS/section5/newTest/newTest2/dangdang.html" />
         <option value="$PROJECT_DIR$/JS/section5/newTest/newTest2/js/dangdang.js" />
@@ -128,6 +142,19 @@
         <option value="$PROJECT_DIR$/JS/section8/test/test3/js/ts8-3.js" />
         <option value="$PROJECT_DIR$/JS/section11/js/index.js" />
         <option value="$PROJECT_DIR$/JS/section11/js/register.js" />
+        <option value="$PROJECT_DIR$/JS/section9/test/test4/register4.html" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/js/index.js" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/index.html" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/css/head&amp;foot.css" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/css/index.css" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/login.html" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/css/login.css" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/register.html" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/css/register.css" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/integral.html" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/css/integral.css" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/reservation.html" />
+        <option value="$PROJECT_DIR$/Winter vacation homework/homework1/css/reservation.css" />
       </list>
     </option>
   </component>
@@ -138,10 +165,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="95" />
-    <option name="y" value="20" />
-    <option name="width" value="1779" />
-    <option name="height" value="979" />
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -274,6 +300,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web10-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web10-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Winter vacation homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web10-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web10-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Winter vacation homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web10-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web10-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Winter vacation homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -289,19 +369,19 @@
     <property name="nodejs_interpreter_path" value="F:/nodejs/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\web10-2\JS\section4\newTest\newTest4" />
-      <recent name="D:\web10-2\JS\section4\newTest\newTest3" />
-      <recent name="D:\web10-2\JS\section4\newTest\newTest2" />
-      <recent name="D:\web10-2\JS\section10\shoppingCar\js" />
-      <recent name="D:\web10-2\JS\section9\test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\web10-2\JS\section7\task\newTask2" />
       <recent name="D:\web10-2\JS\section11\json" />
       <recent name="D:\web10-2\JS\section5\newTest\newTest4" />
       <recent name="D:\web10-2\JS\section5\newTest\newTest2" />
       <recent name="D:\web10-2\JS\section11\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web10-2\JS\section4\newTest\newTest4" />
+      <recent name="D:\web10-2\JS\section4\newTest\newTest3" />
+      <recent name="D:\web10-2\JS\section4\newTest\newTest2" />
+      <recent name="D:\web10-2\JS\section10\shoppingCar\js" />
+      <recent name="D:\web10-2\JS\section9\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -539,12 +619,18 @@
       <workItem from="1516585410971" duration="6100000" />
       <workItem from="1516688640298" duration="15065000" />
       <workItem from="1516810468926" duration="4993000" />
-      <workItem from="1517185666519" duration="35000" />
+      <workItem from="1517185666519" duration="1227000" />
+      <workItem from="1517187297069" duration="588000" />
+      <workItem from="1517324091755" duration="736000" />
+      <workItem from="1517379661283" duration="4228000" />
+      <workItem from="1517446195599" duration="59000" />
+      <workItem from="1517923938317" duration="54000" />
+      <workItem from="1517924015867" duration="29345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="993994000" />
+    <option name="totallyTimeSpent" value="1030196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,15 +642,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="20" width="1779" height="979" extended-state="1" />
+    <frame x="952" y="0" width="976" height="1038" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791691" sideWeight="0.48964676" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42903227" sideWeight="0.48964676" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.497669" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.502331" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.502331" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22014925" sideWeight="0.497669" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.497669" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.497669" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17951736" sideWeight="0.5103532" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39817232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -607,162 +694,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/途家/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="41" column="85" lean-forward="false" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/css/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="147" column="18" lean-forward="false" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/demo/实时监测input中值的变化/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/demo/实时监测input中值的变化/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/json/firstJson.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section5/newTest/newTest4/adver.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/json/beijing" />
-    <entry file="file://$PROJECT_DIR$/JS/section11/json/hunan">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/json/tianjin" />
-    <entry file="file://$PROJECT_DIR$/JS/section11/json/hubei">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/json/jiangsu">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/json/zhejiang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="85" lean-forward="false" selection-start-line="0" selection-start-column="85" selection-end-line="0" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/json/anhui">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/json/fujian">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/json/shandong">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/json/default">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/open.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/js/jquery-1.12.4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="418" column="16" lean-forward="false" selection-start-line="418" selection-start-column="16" selection-end-line="418" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section11/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="241" column="19" lean-forward="true" selection-start-line="241" selection-start-column="19" selection-end-line="241" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section7/test/test1/js/ts7-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/section7/test/test3/js/ts7-3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS/section7/test/test2/js/ts7-2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -936,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2673">
           <caret line="81" column="44" lean-forward="false" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,6 +874,329 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/废土崛起(书客吧小说shukeba.com).txt" />
+    <entry file="file://$PROJECT_DIR$/JS/section9/test/test3/js/register3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="109" column="54" lean-forward="false" selection-start-line="109" selection-start-column="54" selection-end-line="109" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/section9/test/test3/register3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/section10/shoppingCar/myCart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3665">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/section9/test/test4/register4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/section9/test/test4/js/register4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#52#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H5/OneShop/css/index_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="416" column="4" lean-forward="true" selection-start-line="416" selection-start-column="4" selection-end-line="420" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="210" selection-end-column="9" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="296" column="35" lean-forward="false" selection-start-line="296" selection-start-column="35" selection-end-line="296" selection-end-column="35" />
+          <folding>
+            <element signature="e#12#98#0" expanded="false" />
+            <element signature="e#112#320#0" expanded="false" />
+            <element signature="e#334#390#0" expanded="false" />
+            <element signature="e#406#470#0" expanded="false" />
+            <element signature="e#482#538#0" expanded="false" />
+            <element signature="e#552#709#0" expanded="false" />
+            <element signature="e#723#762#0" expanded="false" />
+            <element signature="e#780#842#0" expanded="false" />
+            <element signature="e#877#899#0" expanded="false" />
+            <element signature="e#913#1048#0" expanded="false" />
+            <element signature="e#1065#1118#0" expanded="false" />
+            <element signature="e#1136#1223#0" expanded="false" />
+            <element signature="e#1232#1257#0" expanded="false" />
+            <element signature="e#1275#1334#0" expanded="false" />
+            <element signature="e#1350#1481#0" expanded="false" />
+            <element signature="e#1497#1629#0" expanded="false" />
+            <element signature="e#1641#1689#0" expanded="false" />
+            <element signature="e#1703#1730#0" expanded="false" />
+            <element signature="e#1747#1771#0" expanded="false" />
+            <element signature="e#1787#1870#0" expanded="false" />
+            <element signature="e#1886#1911#0" expanded="false" />
+            <element signature="e#1925#1950#0" expanded="false" />
+            <element signature="e#1970#2070#0" expanded="false" />
+            <element signature="e#2093#2304#0" expanded="false" />
+            <element signature="e#2332#2405#0" expanded="false" />
+            <element signature="e#2424#2491#0" expanded="false" />
+            <element signature="e#2518#2692#0" expanded="false" />
+            <element signature="e#2715#2761#0" expanded="false" />
+            <element signature="e#2787#2856#0" expanded="false" />
+            <element signature="e#2883#2945#0" expanded="false" />
+            <element signature="e#2984#3088#0" expanded="false" />
+            <element signature="e#3126#3231#0" expanded="false" />
+            <element signature="e#3250#3397#0" expanded="false" />
+            <element signature="e#3424#3466#0" expanded="false" />
+            <element signature="e#3524#3572#0" expanded="false" />
+            <element signature="e#3603#3652#0" expanded="false" />
+            <element signature="e#3687#3715#0" expanded="false" />
+            <element signature="e#3758#3785#0" expanded="false" />
+            <element signature="e#3818#3858#0" expanded="false" />
+            <element signature="e#3931#3971#0" expanded="false" />
+            <element signature="e#4004#4057#0" expanded="false" />
+            <element signature="e#4090#4114#0" expanded="false" />
+            <element signature="e#4151#4191#0" expanded="false" />
+            <element signature="e#4224#4324#0" expanded="false" />
+            <element signature="e#4360#4409#0" expanded="false" />
+            <element signature="e#4444#4468#0" expanded="false" />
+            <element signature="e#4506#4532#0" expanded="false" />
+            <element signature="e#4549#4574#0" expanded="false" />
+            <element signature="e#4687#4719#0" expanded="false" />
+            <element signature="e#4735#4760#0" expanded="false" />
+            <element signature="e#4774#4860#0" expanded="false" />
+            <element signature="e#4878#4920#0" expanded="false" />
+            <element signature="e#4940#5121#0" expanded="false" />
+            <element signature="e#5146#5199#0" expanded="false" />
+            <element signature="e#5219#5269#0" expanded="false" />
+            <element signature="e#5294#5338#0" expanded="false" />
+            <element signature="e#5367#5415#0" expanded="false" />
+            <element signature="e#5437#5633#0" expanded="false" />
+            <element signature="e#5659#5738#0" expanded="false" />
+            <element signature="e#5751#5796#0" expanded="false" />
+            <element signature="e#5813#5890#0" expanded="false" />
+            <element signature="e#5918#5974#0" expanded="false" />
+            <element signature="e#5994#6057#0" expanded="false" />
+            <element signature="e#6082#6113#0" expanded="false" />
+            <element signature="e#6138#6182#0" expanded="false" />
+            <element signature="e#6210#6307#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/css/head&amp;foot.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding>
+            <element signature="e#355#411#0" expanded="false" />
+            <element signature="e#427#491#0" expanded="false" />
+            <element signature="e#892#934#0" expanded="false" />
+            <element signature="e#1161#1214#0" expanded="false" />
+            <element signature="e#1234#1284#0" expanded="false" />
+            <element signature="e#1309#1353#0" expanded="false" />
+            <element signature="e#1382#1430#0" expanded="false" />
+            <element signature="e#1452#1648#0" expanded="false" />
+            <element signature="e#1674#1753#0" expanded="false" />
+            <element signature="e#1766#1811#0" expanded="false" />
+            <element signature="e#1828#1905#0" expanded="false" />
+            <element signature="e#1933#1989#0" expanded="false" />
+            <element signature="e#2009#2072#0" expanded="false" />
+            <element signature="e#2097#2128#0" expanded="false" />
+            <element signature="e#2153#2197#0" expanded="false" />
+            <element signature="e#2225#2322#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#10#78#0" expanded="false" />
+            <element signature="e#94#189#0" expanded="false" />
+            <element signature="e#341#368#0" expanded="false" />
+            <element signature="e#385#492#0" expanded="false" />
+            <element signature="e#507#560#0" expanded="false" />
+            <element signature="e#590#635#0" expanded="false" />
+            <element signature="e#652#697#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="45" selection-end-column="7" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H5/OneShop/sing-in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/雷哥网/sign-in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/雷哥网/css/ring-up.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="83" column="4" lean-forward="true" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/雷哥网/ring-up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="37" column="82" lean-forward="false" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/css/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="108" column="17" lean-forward="false" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+          <folding>
+            <element signature="e#10#78#0" expanded="false" />
+            <element signature="e#94#189#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/css/integral.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding>
+            <element signature="e#17#100#0" expanded="false" />
+            <element signature="e#112#180#0" expanded="false" />
+            <element signature="e#196#261#0" expanded="false" />
+            <element signature="e#280#351#0" expanded="false" />
+            <element signature="e#370#419#0" expanded="false" />
+            <element signature="e#443#509#0" expanded="false" />
+            <element signature="e#535#593#0" expanded="false" />
+            <element signature="e#607#637#0" expanded="false" />
+            <element signature="e#654#694#0" expanded="false" />
+            <element signature="e#712#752#0" expanded="false" />
+            <element signature="e#764#847#0" expanded="false" />
+            <element signature="e#863#903#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/integral.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/reservation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="39" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winter vacation homework/homework1/css/reservation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="92" column="20" lean-forward="false" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
           <folding />
         </state>
       </provider>
