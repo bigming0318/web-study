@@ -79,6 +79,10 @@
     transform: translateX(-50%);
 }
 
+.opt-img {
+    opacity: 0.7;
+}
+
 .state h1 {
     color: #666;
     font-size: 20px;
