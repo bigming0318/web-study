@@ -64,10 +64,10 @@ $(document).ready(function () {
     /*ajax 实现下拉框级联*/
     $("#province").change(function () {
         $.ajax({
-            type: "post",
             url: "json/" + $(this).val(),
+            type: "GET",
             data: null,
-            dataType: "JSON",
+            dataType: "json",
             success: function (ret) {
                 console.log(ret);
                 var htmlContent = "";
@@ -79,7 +79,7 @@ $(document).ready(function () {
                 $("#city").html(htmlContent);
             },
             error: function (ret) {
-                console.error(ret);
+                alert("请求失败")
             }
         });
     })

@@ -5,7 +5,7 @@
 $(document).ready(function () {
     /*加载左边浏览同级分类*/
     $.ajax({
-        type: "post",//请求类型
+        type: "GET",//请求类型
         url: "json/firstJson",//请求地址
         data: null,//参数
         dataType: "JSON",//返回数据类型
@@ -55,8 +55,8 @@ $(document).ready(function () {
     })
     /*大图模式下鼠标悬浮到图片内*/
     $(".big-img-list-out").hover(function () {
-        $(this).removeClass("big-img-list-out").addClass("big-img-list-over");
+        $(this).addClass("big-img-list-over");
     }, function () {
-        $(this).removeClass("big-img-list-over").addClass("big-img-list-out");
+        $(this).removeClass("big-img-list-over");
     })
 });

@@ -55,14 +55,6 @@ $(document).ready(function () {
         doscrollAlign();
     });
 
-    /*电子书图片放大缩小特效*/
-    var $imgWidth = $(".book img").width();
-    $(".book img").hover(function () {
-        $(this).animate({width: $imgWidth * 1.2, height: $imgWidth * 1.2}, 1000)
-    }, function () {
-        $(this).animate({width: $imgWidth, height: $imgWidth}, 1000)
-    });
-
     /*图书畅销榜和图书新书榜实现Tab切换*/
     $(".tab ol li:first").mousemove(function () {
         $(".tab ul:first").show();
@@ -83,8 +75,8 @@ $(document).ready(function () {
 
     /*鼠标移至图书标题显示图片和图书信息*/
     $(".tab ul li").mousemove(function () {
-        $(this).children("p").hide();
-        $(this).children("dl").show();
+        $(this).find("p").hide();
+        $(this).find("dl").show();
         $(this).siblings().find("p").show();
         $(this).siblings().find("dl").hide();
     });
